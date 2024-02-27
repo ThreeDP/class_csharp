@@ -1,0 +1,17 @@
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.Form1.resources
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.csproj.GenerateResource.cache
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.AssemblyInfoInputs.cache
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.AssemblyInfo.cs
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.csproj.CoreCompileInputs.cache
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.sourcelink.json
+C:\Users\cj300225x\Documents\csharp\exer\exer\bin\Debug\net8.0-windows\exer.exe
+C:\Users\cj300225x\Documents\csharp\exer\exer\bin\Debug\net8.0-windows\exer.deps.json
+C:\Users\cj300225x\Documents\csharp\exer\exer\bin\Debug\net8.0-windows\exer.runtimeconfig.json
+C:\Users\cj300225x\Documents\csharp\exer\exer\bin\Debug\net8.0-windows\exer.dll
+C:\Users\cj300225x\Documents\csharp\exer\exer\bin\Debug\net8.0-windows\exer.pdb
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.dll
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\refint\exer.dll
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.pdb
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\exer.genruntimeconfig.cache
+C:\Users\cj300225x\Documents\csharp\exer\exer\obj\Debug\net8.0-windows\ref\exer.dll

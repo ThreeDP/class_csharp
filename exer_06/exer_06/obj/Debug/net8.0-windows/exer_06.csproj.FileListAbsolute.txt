@@ -1,0 +1,17 @@
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\bin\Debug\net8.0-windows\exer_06.exe
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\bin\Debug\net8.0-windows\exer_06.deps.json
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\bin\Debug\net8.0-windows\exer_06.runtimeconfig.json
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\bin\Debug\net8.0-windows\exer_06.dll
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\bin\Debug\net8.0-windows\exer_06.pdb
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.Form1.resources
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.csproj.GenerateResource.cache
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.AssemblyInfoInputs.cache
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.AssemblyInfo.cs
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.csproj.CoreCompileInputs.cache
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.sourcelink.json
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.dll
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\refint\exer_06.dll
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.pdb
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\exer_06.genruntimeconfig.cache
+C:\Users\cj300225x\Documents\csharp\exer_06\exer_06\obj\Debug\net8.0-windows\ref\exer_06.dll
