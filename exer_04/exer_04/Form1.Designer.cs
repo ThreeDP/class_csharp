@@ -168,7 +168,7 @@
             btnProcessSalary.TabIndex = 6;
             btnProcessSalary.Text = "Salário Liquido";
             btnProcessSalary.UseVisualStyleBackColor = false;
-            btnProcessSalary.Click += btnProcessSalary_Click;
+            btnProcessSalary.MouseLeave += btnProcessSalary_Leave;
             // 
             // lblInfo
             // 
