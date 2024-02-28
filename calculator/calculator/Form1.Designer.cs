@@ -61,7 +61,7 @@
             lblCalcView.RightToLeft = RightToLeft.No;
             lblCalcView.Size = new Size(309, 90);
             lblCalcView.TabIndex = 0;
-            lblCalcView.Text = "result\ncalc";
+            lblCalcView.Text = "\n";
             lblCalcView.TextAlign = ContentAlignment.TopRight;
             // 
             // panel1
@@ -97,6 +97,7 @@
             btnResult.TabIndex = 2;
             btnResult.Text = "=";
             btnResult.UseVisualStyleBackColor = true;
+            btnResult.Click += btnResult_Click;
             // 
             // btnReset
             // 
@@ -107,6 +108,7 @@
             btnReset.TabIndex = 1;
             btnReset.Text = "C";
             btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
             // 
             // btnZero
             // 
@@ -128,6 +130,7 @@
             btnNine.TabIndex = 15;
             btnNine.Text = "9";
             btnNine.UseVisualStyleBackColor = true;
+            btnNine.Click += btnNine_Click;
             // 
             // btnSix
             // 
@@ -138,6 +141,7 @@
             btnSix.TabIndex = 14;
             btnSix.Text = "6";
             btnSix.UseVisualStyleBackColor = true;
+            btnSix.Click += btnSix_Click;
             // 
             // btnThree
             // 
@@ -148,6 +152,7 @@
             btnThree.TabIndex = 13;
             btnThree.Text = "3";
             btnThree.UseVisualStyleBackColor = true;
+            btnThree.Click += btnThree_Click;
             // 
             // btnEight
             // 
@@ -158,6 +163,7 @@
             btnEight.TabIndex = 12;
             btnEight.Text = "8";
             btnEight.UseVisualStyleBackColor = true;
+            btnEight.Click += btnEight_Click;
             // 
             // btnFive
             // 
@@ -168,6 +174,7 @@
             btnFive.TabIndex = 11;
             btnFive.Text = "5";
             btnFive.UseVisualStyleBackColor = true;
+            btnFive.Click += btnFive_Click;
             // 
             // btnTwo
             // 
@@ -178,6 +185,7 @@
             btnTwo.TabIndex = 11;
             btnTwo.Text = "2";
             btnTwo.UseVisualStyleBackColor = true;
+            btnTwo.Click += btnTwo_Click;
             // 
             // btnPoint
             // 
@@ -188,6 +196,7 @@
             btnPoint.TabIndex = 10;
             btnPoint.Text = ".";
             btnPoint.UseVisualStyleBackColor = true;
+            btnPoint.Click += btnPoint_Click;
             // 
             // btnSeven
             // 
@@ -198,6 +207,7 @@
             btnSeven.TabIndex = 9;
             btnSeven.Text = "7";
             btnSeven.UseVisualStyleBackColor = true;
+            btnSeven.Click += btnSeven_Click;
             // 
             // btnFour
             // 
@@ -208,6 +218,7 @@
             btnFour.TabIndex = 8;
             btnFour.Text = "4";
             btnFour.UseVisualStyleBackColor = true;
+            btnFour.Click += btnFour_Click;
             // 
             // btnOne
             // 
@@ -218,6 +229,7 @@
             btnOne.TabIndex = 7;
             btnOne.Text = "1";
             btnOne.UseVisualStyleBackColor = true;
+            btnOne.Click += btnOne_Click;
             // 
             // btnDivide
             // 
@@ -228,6 +240,7 @@
             btnDivide.TabIndex = 6;
             btnDivide.Text = "/";
             btnDivide.UseVisualStyleBackColor = true;
+            btnDivide.Click += btnDivide_Click;
             // 
             // btnMultiply
             // 
@@ -238,6 +251,7 @@
             btnMultiply.TabIndex = 5;
             btnMultiply.Text = "*";
             btnMultiply.UseVisualStyleBackColor = true;
+            btnMultiply.Click += btnMultiply_Click;
             // 
             // btnMinus
             // 
@@ -248,6 +262,7 @@
             btnMinus.TabIndex = 4;
             btnMinus.Text = "-";
             btnMinus.UseVisualStyleBackColor = true;
+            btnMinus.Click += btnMinus_Click;
             // 
             // btnPlus
             // 
@@ -258,6 +273,7 @@
             btnPlus.TabIndex = 3;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.Click += btnPlus_Click;
             // 
             // Form1
             // 
