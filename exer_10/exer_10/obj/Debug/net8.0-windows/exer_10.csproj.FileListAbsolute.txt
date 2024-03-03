@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\exer_10\exer_10\bin\Debug\net8.0-windows\exer_10.exe
+C:\Users\User\source\repos\exer_10\exer_10\bin\Debug\net8.0-windows\exer_10.deps.json
+C:\Users\User\source\repos\exer_10\exer_10\bin\Debug\net8.0-windows\exer_10.runtimeconfig.json
+C:\Users\User\source\repos\exer_10\exer_10\bin\Debug\net8.0-windows\exer_10.dll
+C:\Users\User\source\repos\exer_10\exer_10\bin\Debug\net8.0-windows\exer_10.pdb
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.Form1.resources
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.csproj.GenerateResource.cache
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.AssemblyInfo.cs
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.dll
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\refint\exer_10.dll
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.pdb
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\exer_10.genruntimeconfig.cache
+C:\Users\User\source\repos\exer_10\exer_10\obj\Debug\net8.0-windows\ref\exer_10.dll
