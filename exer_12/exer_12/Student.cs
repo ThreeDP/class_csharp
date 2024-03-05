@@ -6,22 +6,23 @@ namespace ClassRoom
 	{
 		private Student()
 		{
-			this._evaluationNotes = new List<int>();
+			this._evaluationNotes = new List<double>();
 			this._name = "";
 		}
 
 		string _name { get; }
-		List<int> _evaluationNotes;
+		List<double> _evaluationNotes;
 
 		public string Name { get { return _name; } }
+		public double Note { set { this._evaluationNotes.Add(value); } }
 
 		public Student(string name)
 		{
-			this._evaluationNotes = new List<int>();
+			this._evaluationNotes = new List<double>();
 			this._name = name;
 		}
 
-		public double getAverage() 
+		public double GetAverage() 
 		{
 			int i = 0;
 			double totalNotes = 0.0;

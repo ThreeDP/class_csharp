@@ -5,57 +5,77 @@ namespace exer_12
     public partial class Form1 : Form
     {
         List<Student> _students;
-        string _actualStudent = "";
         public Form1()
         {
             this._students = new List<Student>();
             InitializeComponent();
         }
 
-        public int findStudent(string name)
-        {
-            int i = 0;
-            foreach (Student student in _students)
-            {
-                if (student.Name == name)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
-
         private void btnRegisterStudentName_Click(object sender, EventArgs e)
         {
-            string studentName = lblInputStudentName.Text.Normalize().ToUpper();
-            int index = this.findStudent(studentName);
-            if (index == -1)
+            string studentName = txtInputStudentName.Text.Normalize().ToUpper();
+            if (studentName == "")
+                return;
+            Student student = new Student(studentName); 
+            if (this._students.IndexOf(student) == -1)
             {
-                this._actualStudent = studentName;
-                this._students.Add(new Student(studentName));
-                lblOutputNameStudent.Text = studentName;
+                this._students.Add(student);
+                lblOutputStudentAverage.Text = lblOutputStudentAverage.Text.Split(": ")[0] + ": ";
+                lblOutputNameStudent.Text = lblOutputNameStudent.Text.Split(":")[0] + ": " + studentName;
+                lblOutputMsg.Text = "Àluno adicionada com sucesso!";
+                lblOutputMsg.ForeColor = Color.Green;
+                return;
             }
+            lblOutputMsg.Text = "Aluno já registrado!";
+            lblOutputMsg.ForeColor = Color.Red;
         }
 
         private void btnConsultStundetByName_Click(object sender, EventArgs e)
         {
-            string studentName = lblInputStudentName.Text.Normalize().ToUpper();
-            int index = this.findStudent(studentName);
+            string studentName = txtInputStudentName.Text.Normalize().ToUpper();
+            if (studentName == "")
+                return;
+            Student student = new Student(studentName);
+            int index = this._students.IndexOf(student);
             if (index != -1)
             {
-                this._actualStudent = studentName;
-               
+
+                lblOutputNameStudent.Text = lblOutputNameStudent.Text.Split(":")[0] + ": " + this._students[index].Name;
+                lblOutputStudentAverage.Text = lblOutputStudentAverage.Text.Split(": ")[0] + ": ";
             }
+            lblOutputMsg.Text = "";
+        }
+
+        private int getStudentIndex()
+        {
+            string studentName = lblOutputNameStudent.Text.Split(": ")[1];
+            if (studentName == "")
+                return -1;
+            Student student = new Student(studentName);
+            return this._students.IndexOf(student);
         }
 
         private void btnRegisterStudentNote_Click(object sender, EventArgs e)
         {
-
+            int index = getStudentIndex();
+            if (index != -1)
+            {
+                lblOutputMsg.Text = "Nota adicionada com sucesso!";
+                lblOutputMsg.ForeColor = Color.Green;
+                this._students[index].Note = Convert.ToDouble(txtInputStudentNote.Text);
+                lblOutputStudentAverage.Text = lblOutputStudentAverage.Text.Split(": ")[0] + ": ";
+                return;
+            }
+            lblOutputMsg.Text = "Não foi possivel adicionar a nota!";
+            lblOutputMsg.ForeColor = Color.Red;
         }
 
         private void btnConsultAverageNoteOfAtualStudent_Click(object sender, EventArgs e)
         {
-
+            int index = getStudentIndex();
+            if (index != -1)
+                lblOutputStudentAverage.Text = lblOutputStudentAverage.Text.Split(":")[0] + ": " + this._students[index].GetAverage();
+            lblOutputMsg.Text = "";
         }
     }
 }
