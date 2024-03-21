@@ -34,11 +34,12 @@
             lblInputEmployerGrossSalary = new Label();
             txtInputEmployerGrossSalary = new TextBox();
             btnRegisterEmployer = new Button();
-            label1 = new Label();
+            lblTitleShowEmployerInformation = new Label();
             btnFindmployer = new Button();
             lblInputIdEmployerForSearch = new Label();
             txtInputIdEmployerForSearch = new TextBox();
-            textBox1 = new TextBox();
+            txtOutputShowEmployerInformation = new TextBox();
+            lblMessageEmployerRegister = new Label();
             SuspendLayout();
             // 
             // txtInputEmployerName
@@ -46,7 +47,7 @@
             txtInputEmployerName.Location = new Point(12, 83);
             txtInputEmployerName.Name = "txtInputEmployerName";
             txtInputEmployerName.Size = new Size(297, 23);
-            txtInputEmployerName.TabIndex = 0;
+            txtInputEmployerName.TabIndex = 2;
             // 
             // lblTitleRegisterEmployer
             // 
@@ -55,7 +56,7 @@
             lblTitleRegisterEmployer.Location = new Point(12, 23);
             lblTitleRegisterEmployer.Name = "lblTitleRegisterEmployer";
             lblTitleRegisterEmployer.Size = new Size(266, 24);
-            lblTitleRegisterEmployer.TabIndex = 1;
+            lblTitleRegisterEmployer.TabIndex = 0;
             lblTitleRegisterEmployer.Text = "Cadastro de Funcionário:";
             // 
             // lblInputEmployerName
@@ -65,7 +66,7 @@
             lblInputEmployerName.Location = new Point(12, 64);
             lblInputEmployerName.Name = "lblInputEmployerName";
             lblInputEmployerName.Size = new Size(41, 16);
-            lblInputEmployerName.TabIndex = 2;
+            lblInputEmployerName.TabIndex = 1;
             lblInputEmployerName.Text = "Nome";
             // 
             // lblInputEmployerGrossSalary
@@ -75,7 +76,7 @@
             lblInputEmployerGrossSalary.Location = new Point(12, 118);
             lblInputEmployerGrossSalary.Name = "lblInputEmployerGrossSalary";
             lblInputEmployerGrossSalary.Size = new Size(82, 16);
-            lblInputEmployerGrossSalary.TabIndex = 4;
+            lblInputEmployerGrossSalary.TabIndex = 3;
             lblInputEmployerGrossSalary.Text = "Salário Bruto";
             // 
             // txtInputEmployerGrossSalary
@@ -83,7 +84,7 @@
             txtInputEmployerGrossSalary.Location = new Point(12, 137);
             txtInputEmployerGrossSalary.Name = "txtInputEmployerGrossSalary";
             txtInputEmployerGrossSalary.Size = new Size(131, 23);
-            txtInputEmployerGrossSalary.TabIndex = 3;
+            txtInputEmployerGrossSalary.TabIndex = 4;
             // 
             // btnRegisterEmployer
             // 
@@ -94,15 +95,16 @@
             btnRegisterEmployer.TabIndex = 5;
             btnRegisterEmployer.Text = "Cadastrar Funcionário";
             btnRegisterEmployer.UseVisualStyleBackColor = true;
+            btnRegisterEmployer.Click += btnRegisterEmployer_Click;
             // 
-            // label1
+            // lblTitleShowEmployerInformation
             // 
-            label1.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 194);
-            label1.Name = "label1";
-            label1.Size = new Size(266, 53);
-            label1.TabIndex = 6;
-            label1.Text = "Visualizar Informações de Funcionário:";
+            lblTitleShowEmployerInformation.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitleShowEmployerInformation.Location = new Point(12, 188);
+            lblTitleShowEmployerInformation.Name = "lblTitleShowEmployerInformation";
+            lblTitleShowEmployerInformation.Size = new Size(266, 53);
+            lblTitleShowEmployerInformation.TabIndex = 6;
+            lblTitleShowEmployerInformation.Text = "Visualizar Informações de Funcionário:";
             // 
             // btnFindmployer
             // 
@@ -113,7 +115,7 @@
             btnFindmployer.TabIndex = 9;
             btnFindmployer.Text = "Buscar Funcionário";
             btnFindmployer.UseVisualStyleBackColor = true;
-            btnFindmployer.Click += this.button1_Click;
+            btnFindmployer.Click += btnFindmployer_Click;
             // 
             // lblInputIdEmployerForSearch
             // 
@@ -122,37 +124,47 @@
             lblInputIdEmployerForSearch.Location = new Point(12, 254);
             lblInputIdEmployerForSearch.Name = "lblInputIdEmployerForSearch";
             lblInputIdEmployerForSearch.Size = new Size(106, 16);
-            lblInputIdEmployerForSearch.TabIndex = 8;
+            lblInputIdEmployerForSearch.TabIndex = 7;
             lblInputIdEmployerForSearch.Text = "Id do Funcionário";
-            lblInputIdEmployerForSearch.Click += this.label2_Click;
             // 
             // txtInputIdEmployerForSearch
             // 
             txtInputIdEmployerForSearch.Location = new Point(12, 273);
             txtInputIdEmployerForSearch.Name = "txtInputIdEmployerForSearch";
             txtInputIdEmployerForSearch.Size = new Size(131, 23);
-            txtInputIdEmployerForSearch.TabIndex = 7;
-            txtInputIdEmployerForSearch.TextChanged += textBox1_TextChanged;
+            txtInputIdEmployerForSearch.TabIndex = 8;
             // 
-            // textBox1
+            // txtOutputShowEmployerInformation
             // 
-            textBox1.Enabled = false;
-            textBox1.Location = new Point(12, 322);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(297, 23);
-            textBox1.TabIndex = 10;
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            txtOutputShowEmployerInformation.Enabled = false;
+            txtOutputShowEmployerInformation.Location = new Point(12, 322);
+            txtOutputShowEmployerInformation.Multiline = true;
+            txtOutputShowEmployerInformation.Name = "txtOutputShowEmployerInformation";
+            txtOutputShowEmployerInformation.ReadOnly = true;
+            txtOutputShowEmployerInformation.Size = new Size(297, 100);
+            txtOutputShowEmployerInformation.TabIndex = 10;
+            txtOutputShowEmployerInformation.TextAlign = HorizontalAlignment.Center;
+            // 
+            // lblMessageEmployerRegister
+            // 
+            lblMessageEmployerRegister.AutoSize = true;
+            lblMessageEmployerRegister.Font = new Font("Arial", 6.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMessageEmployerRegister.Location = new Point(12, 163);
+            lblMessageEmployerRegister.Name = "lblMessageEmployerRegister";
+            lblMessageEmployerRegister.Size = new Size(0, 12);
+            lblMessageEmployerRegister.TabIndex = 11;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(321, 450);
-            Controls.Add(textBox1);
+            Controls.Add(lblMessageEmployerRegister);
+            Controls.Add(txtOutputShowEmployerInformation);
             Controls.Add(btnFindmployer);
             Controls.Add(lblInputIdEmployerForSearch);
             Controls.Add(txtInputIdEmployerForSearch);
-            Controls.Add(label1);
+            Controls.Add(lblTitleShowEmployerInformation);
             Controls.Add(btnRegisterEmployer);
             Controls.Add(lblInputEmployerGrossSalary);
             Controls.Add(txtInputEmployerGrossSalary);
@@ -173,10 +185,11 @@
         private Label lblInputEmployerGrossSalary;
         private TextBox txtInputEmployerGrossSalary;
         private Button btnRegisterEmployer;
-        private Label label1;
+        private Label lblTitleShowEmployerInformation;
         private Button btnFindmployer;
         private Label lblInputIdEmployerForSearch;
         private TextBox txtInputIdEmployerForSearch;
-        private TextBox textBox1;
+        private TextBox txtOutputShowEmployerInformation;
+        private Label lblMessageEmployerRegister;
     }
 }

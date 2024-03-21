@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cj300225x\\Documents\\csharp\\exer_14\\exer_14\\exer_14.csproj",
+      "projectUniqueName": "C:\\Users\\cj300225x\\Documents\\class_csharp\\exer_14\\exer_14\\exer_14.csproj",
       "projectName": "exer_14",
-      "projectPath": "C:\\Users\\cj300225x\\Documents\\csharp\\exer_14\\exer_14\\exer_14.csproj",
+      "projectPath": "C:\\Users\\cj300225x\\Documents\\class_csharp\\exer_14\\exer_14\\exer_14.csproj",
       "packagesPath": "C:\\Users\\cj300225x\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cj300225x\\Documents\\csharp\\exer_14\\exer_14\\obj\\",
+      "outputPath": "C:\\Users\\cj300225x\\Documents\\class_csharp\\exer_14\\exer_14\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cj300225x\\AppData\\Roaming\\NuGet\\NuGet.Config",
