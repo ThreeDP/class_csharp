@@ -2,11 +2,11 @@ namespace exer_14
 {
     public partial class Form1 : Form
     {
-        List<Employer> _employers;
+        List<Livro> _livros;
         public Form1()
         {
             InitializeComponent();
-            this._employers = new List<Employer>();
+            this._livros = new List<Livro>();
         }
 
 

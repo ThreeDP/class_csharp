@@ -36,7 +36,7 @@ namespace exer_14
 
         public double CalculateNetSalary()
         {
-            return this._grossSalary - (this._grossSalary * _security);
+            return this._grossSalary - (this._grossSalary * (_security / 100));
         }
     }
 }
