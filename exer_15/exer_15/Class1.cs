@@ -26,7 +26,7 @@ namespace exer_15
         public int BooksAvaiable { get { return this._amount - this._borrowed; } }
         public bool LendBook()
         {
-            if (this._amount - this._borrowed >= 0)
+            if (this._amount - this._borrowed > 0)
             {
                 this._borrowed++;
                 return true;
