@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\cj300225x\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\csharp\\exer_15\\exer_15\\exer_15.csproj",
+      "projectUniqueName": "C:\\Users\\cj300225x\\Documents\\csharp\\class_csharp\\exer_15\\exer_15\\exer_15.csproj",
       "projectName": "exer_15",
-      "projectPath": "C:\\Users\\User\\Documents\\csharp\\exer_15\\exer_15\\exer_15.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\csharp\\exer_15\\exer_15\\obj\\",
+      "projectPath": "C:\\Users\\cj300225x\\Documents\\csharp\\class_csharp\\exer_15\\exer_15\\exer_15.csproj",
+      "packagesPath": "C:\\Users\\cj300225x\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cj300225x\\Documents\\csharp\\class_csharp\\exer_15\\exer_15\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cj300225x\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
